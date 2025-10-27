@@ -126,20 +126,20 @@ print(f"75th %: {stats\_list.percentile(75)}")
 \# Get a full summary with .describe()  
 stats\_list.describe()  
 \# Output:  
-\#  
-\# Summary Statistics ((\<class 'int'\>, \<class 'float'\>))  
-\# \-----------------------------------  
-\#   count : 8  
-\#    mean : 25.25  
-\#     std : 15.119  
-\#     var : 228.5  
-\#     min : 2  
-\#     25% : 18.25  
-\#     50% : 23.0  
-\#     75% : 38.0  
-\#     max : 47  
-\#   range : 45
-
+```
+ Summary Statistics ((<class 'int'>, <class 'float'>))  
+ \-----------------------------------  
+  count : 8  
+  mean : 25.25  
+  std : 15.119  
+  var : 228.5  
+  min : 2  
+  25% : 18.25  
+  50% : 23.0  
+  75% : 38.0  
+  max : 47  
+  range : 45
+```
 ## **Custom Exceptions**
 
 This class provides a clear set of custom exceptions to make error handling precise.
